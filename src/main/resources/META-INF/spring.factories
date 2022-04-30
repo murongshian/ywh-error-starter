@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ywh.error.starter.config.AdviceAutoConfigure,\
+ywh.error.starter.config.DruidAutoConfigure,\
+ywh.error.starter.config.ErrorControllerAutoConfigure,\
+ywh.error.starter.config.ErrorServiceAutoConfigure
