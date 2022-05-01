@@ -34,7 +34,7 @@
     </developers>
     <profiles>
         <profile>
-            <id>release</id>
+            <id>snapshot</id>
             <build>
                 <plugins>
                     <!-- Source -->
