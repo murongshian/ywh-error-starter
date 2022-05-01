@@ -6,7 +6,7 @@
 
     <groupId>io.github.murongshian</groupId>
     <artifactId>ywh-error-starter</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ywh-error-starter</name>
@@ -34,7 +34,7 @@
     </developers>
     <profiles>
         <profile>
-            <id>snapshot</id>
+            <id>release</id>
             <build>
                 <plugins>
                     <!-- Source -->
@@ -90,11 +90,13 @@
             </build>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>snapshots</id>
+                    <id>sonatype-nexus-snapshots</id>
+                    <name>Sonatype Nexus Snapshots</name>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                 </snapshotRepository>
                 <repository>
-                    <id>snapshots</id>
+                    <id>sonatype-nexus-snapshots</id>
+                    <name>Nexus Release Repository</name>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
                 </repository>
             </distributionManagement>
