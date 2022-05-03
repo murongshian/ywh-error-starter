@@ -44,8 +44,8 @@
                         <td th:text="${error.getLineNumber}"></td>
                         <td th:text="${error.getCreateTime}"></td>
                         <td>
-                            <a class="btn-sm btn-primary" th:href="@{/getError/}+${error.getId}">查看</a>
-                            <a class="btn-sm btn-danger" th:href="@{/deleteError/}+${error.getId}">删除</a>
+                            <a class="btn-sm btn-primary" th:href="@{/ywh/getError/}+${error.getId}">查看</a>
+                            <a class="btn-sm btn-danger" th:href="@{/ywh/deleteError/}+${error.getId}">删除</a>
                         </td>
                     </tr>
                     </tbody>
