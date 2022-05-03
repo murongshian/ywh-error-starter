@@ -42,5 +42,5 @@ http://xxx.xxx.xxx.xxx:xx/ywh/index
 \<dependency>  
     \<groupId>io.github.murongshian\</groupId>  
     \<artifactId>ywh-error-starter\</artifactId>  
-    \<version>1.0.0\</version>  
+    \<version>1.0.1\</version>  
 \</dependency>
